@@ -1,0 +1,53 @@
+{
+    "title": "Root Schema",
+    "type": "array",
+    "default": [],
+    "items": {
+        "title": "A Schema",
+        "type": "object",
+        "required": [
+            "date",
+            "explanation",
+            "hdurl",
+            "media_type",
+            "service_version",
+            "title",
+            "url",
+            "copyright"
+        ],
+        "properties": {
+            "date": {
+                "title": "The date Schema",
+                "type": "string"
+            },
+            "explanation": {
+                "title": "The explanation Schema",
+                "type": "string"
+            },
+            "hdurl": {
+                "title": "The hdurl Schema",
+                "type": "string"
+            },
+            "media_type": {
+                "title": "The media_type Schema",
+                "type": "string"
+            },
+            "service_version": {
+                "title": "The service_version Schema",
+                "type": "string"
+            },
+            "title": {
+                "title": "The title Schema",
+                "type": "string"
+            },
+            "url": {
+                "title": "The url Schema",
+                "type": "string"
+            },
+            "copyright": {
+                "title": "The copyright Schema",
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mocha-api",
+  "version": "1.0.0",
+  "description": "learn mocha n chai for api test",
+  "main": "index.js",
+  "author": "oimtrust",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "api:test": "mocha test --recursive --reporter mochawesome --reporter-options reportDir=reports --timeout 180000"
+  }
+}
